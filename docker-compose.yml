@@ -1,0 +1,17 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./dexBack
+    ports:
+      - "3001:3001"
+    environment:
+      # Add your environment variables here
+      NODE_ENV: production
+
+  frontend:
+    build:
+      context: ./dex
+    ports:
+      - "80:80"
+                       
