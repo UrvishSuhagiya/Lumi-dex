@@ -39,7 +39,57 @@ Now you're ready to start trading! Execute your transactions securely and effici
 
 ---
 
-## 🎉 Ready to Dive In?  
-Start your DeFi journey with Lumi-Dex today! If you have any questions, our support team is always here to help. Happy trading! 🚀
+## 🐳 Running Lumi-Dex with Docker Compose
+
+Docker and Docker Compose simplify the setup and deployment process of Lumi-Dex. Docker containers encapsulate the application and its dependencies, ensuring consistency across different environments. Docker Compose allows you to define and run multi-container Docker applications.
+
+### 1. 📦 **Install Docker and Docker Compose**
+Ensure Docker and Docker Compose are installed on your machine. If not, download and install them from [Docker's official website](https://www.docker.com/get-started).
+
+### 2. 📂 **Clone the Repository**
+Clone the Lumi-Dex repository to your local machine:
+
+```
+git clone https://github.com/your-username/lumi-dex.git
+cd lumi-dex
+```
+
+### 3. 📝 **Create a Docker Compose File**
+Create a `docker-compose.yml` file in the root directory of the cloned repository with the following content:
+
+### 4.**Building and Running Docker Compose**
+Navigate to the root directory of the cloned repository and build the Docker images using Docker Compose:
+
+```
+docker-compose build
+```
+
+### 5. 🚀 **Run Docker Compose**
+Navigate to the root directory of the cloned repository and start the services using Docker Compose:
+
+```
+docker-compose up
+```
+
+The application will be accessible at `http://localhost:80/`.
+
+### 6. 🔄 **Stop the Docker Compose Services**
+To stop the running services, use the following command:
+
+```
+docker-compose down
+```
+
+### ***Important Docker Compose Commands***
+- Building Images: ```docker-compose build```
+- Starting Services: ```docker-compose up```
+- Stopping Services: ```docker-compose down```
+- Viewing Logs: ```docker-compose logs```
+- Running in Detached Mode: ```docker-compose up -d```
 
 ---
+
+## 🎉 Ready to Dive In?  
+Start your DeFi journey with Lumi-Dex today! If you have any questions, our support team is always here to help. 🚀
+
+```
