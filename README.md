@@ -91,5 +91,3 @@ docker-compose down
 
 ## 🎉 Ready to Dive In?  
 Start your DeFi journey with Lumi-Dex today! If you have any questions, our support team is always here to help. 🚀
-
-```
